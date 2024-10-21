@@ -8,6 +8,6 @@ public class StringEqualsObject {
             System.out.println("los textos son iguales");
         else
             System.out.println("los textos son distintos");
-        //test
+        //tesT
     }
 }
