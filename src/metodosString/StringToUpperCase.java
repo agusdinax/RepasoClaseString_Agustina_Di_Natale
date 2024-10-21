@@ -1,10 +1,10 @@
 package metodosString;
 
-public class StringToLowerCase {
+public class StringToUpperCase {
     public static void main (String[] args) {
-        String t = "HOLA ESTA ES UNA PRUEBA";
+        String t = "hola esta es una prueba";
         System.out.println(t);
-        t = t.toLowerCase();
-        System.out.println("Ahora en minisculas: "+t);
+        t = t.toUpperCase();
+        System.out.println("Ahora en mayuscula: "+t);
     }
 }

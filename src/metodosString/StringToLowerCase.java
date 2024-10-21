@@ -1,12 +1,10 @@
 package metodosString;
 
-public class StringCompareToIgnoreCase {
+public class StringToLowerCase {
     public static void main (String[] args) {
-        String te1= "Hola";
-        String te2= "hola";
-        if(te1.compareToIgnoreCase(te2) == 0)
-            System.out.println("los textos son iguales");
-        else
-            System.out.println("los textos son distintos");
+        String t = "HOLA ESTA ES UNA PRUEBA";
+        System.out.println(t);
+        t = t.toLowerCase();
+        System.out.println("Ahora en minisculas: "+t);
     }
 }

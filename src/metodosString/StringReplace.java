@@ -1,13 +1,10 @@
 package metodosString;
 
-public class StringObjects {
+public class StringReplace {
     public static void main (String[] args) {
-        String test = "Test";
-        String test2 = new String("Test");
-        String test3 = new String(test);
-        String test4 = null;
-        String test5 = "";
-
-        System.out.println(test);
+        String t = "esto es un ejemplo";
+        System.out.println(t);
+        t=t.replace('e', '*');
+        System.out.println("Ahora …  "+t);
     }
 }

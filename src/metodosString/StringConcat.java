@@ -1,10 +1,12 @@
 package metodosString;
 
-public class StringToLowerCase {
+public class StringConcat {
     public static void main (String[] args) {
-        String t = "HOLA ESTA ES UNA PRUEBA";
-        System.out.println(t);
-        t = t.toLowerCase();
-        System.out.println("Ahora en minisculas: "+t);
+        String t1="Esto en un ejemplo";
+        String t2="HOLI";
+        String t3=null;
+        System.out.println("\""+t1+"\" unido con \""+t2+"\", resulta:");
+        t3=t1.concat(t2);
+        System.out.print(t3);
     }
 }

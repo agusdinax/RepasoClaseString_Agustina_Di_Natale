@@ -1,40 +1,40 @@
 package metodosString;
 
-public class StringValueOf {
+public class StringParse {
     public static void main (String[] args) {
-        // Ejemplo con boolean
-        boolean valorBoolean = true;
-        String booleanStr = String.valueOf(valorBoolean);
-        System.out.println("String.valueOf(boolean): " + booleanStr);
+        // Ejemplo con byte
+        String byteStr = "100";
+        byte datoByte = Byte.parseByte(byteStr);
+        System.out.println("Byte.parseByte: " + datoByte);
+
+        // Ejemplo con short
+        String shortStr = "32000";
+        short datoShort = Short.parseShort(shortStr);
+        System.out.println("Short.parseShort: " + datoShort);
 
         // Ejemplo con int
-        int valorInt = 123;
-        String intStr = String.valueOf(valorInt);
-        System.out.println("String.valueOf(int): " + intStr);
+        String intStr = "123456";
+        int datoInt = Integer.parseInt(intStr);
+        System.out.println("Integer.parseInt: " + datoInt);
 
         // Ejemplo con long
-        long valorLong = 123456789L;
-        String longStr = String.valueOf(valorLong);
-        System.out.println("String.valueOf(long): " + longStr);
+        String longStr = "123456789";
+        long datoLong = Long.parseLong(longStr);
+        System.out.println("Long.parseLong: " + datoLong);
 
         // Ejemplo con float
-        float valorFloat = 3.14f;
-        String floatStr = String.valueOf(valorFloat);
-        System.out.println("String.valueOf(float): " + floatStr);
-
-        // Ejemplo con Object
-        Object valorObject = new Object();
-        String objectStr = String.valueOf(valorObject);
-        System.out.println("String.valueOf(Object): " + objectStr);
-
-        // Ejemplo con char
-        char valorChar = 'A';
-        String charStr = String.valueOf(valorChar);
-        System.out.println("String.valueOf(char): " + charStr);
+        String floatStr = "3.14";
+        float datoFloat = Float.parseFloat(floatStr);
+        System.out.println("Float.parseFloat: " + datoFloat);
 
         // Ejemplo con double
-        double valorDouble = 123.456;
-        String doubleStr = String.valueOf(valorDouble);
-        System.out.println("String.valueOf(double): " + doubleStr);
+        String doubleStr = "123.456";
+        double datoDouble = Double.parseDouble(doubleStr);
+        System.out.println("Double.parseDouble: " + datoDouble);
+
+        // Ejemplo con boolean
+        String booleanStr = "true";
+        boolean datoBoolean = Boolean.parseBoolean(booleanStr);
+        System.out.println("Boolean.parseBoolean: " + datoBoolean);
     }
 }
